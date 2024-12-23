@@ -95,7 +95,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null){
                                         return 'enter valid GST Number';
                                       }
                                       else{
@@ -126,7 +126,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null){
                                         return 'enter valid GST Number';
                                       }
                                       else{
@@ -237,7 +237,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null){
                                         return 'enter valid GST Number';
                                       }
                                       else{
@@ -282,7 +282,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null){
                                         return 'enter valid GST Number';
                                       }
                                       else{
@@ -313,7 +313,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null){
                                         return 'enter valid GST Number';
                                       }
                                       else{
@@ -425,7 +425,7 @@ class _DetailsState extends State<Details> {
 
                                     ),
                                     validator: (value){
-                                      if(value == null || value.length!=15){
+                                      if(value == null ){
                                         return 'enter valid GST Number';
                                       }
                                       else{

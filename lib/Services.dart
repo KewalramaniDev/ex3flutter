@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:ex3flutter/ServicesCategory.dart';
 
 class Services extends StatefulWidget {
   const Services ({super.key});
@@ -414,7 +415,7 @@ class _ServicesState extends State<Services> {
             onPressed: () {
               Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) =>  SignUpPage()));
+                  MaterialPageRoute(builder: (context) =>  Servicescategory()));
             },
             style: TextButton.styleFrom(
               foregroundColor: Colors.blue,
