@@ -389,44 +389,83 @@ class _ServicesState extends State<Services> {
         )
 
       ),
+
       Container(
-        margin: const EdgeInsets.fromLTRB(20,900,20,0),
+          margin: const EdgeInsets.fromLTRB(20,900, 35, 20),
+          child: Text(
+            'Top Categories',
+            style: TextStyle(color: Colors.black,
+                // fontStyle: FontStyle.Raleway,
+                fontWeight: FontWeight.bold,
+                fontFamily:'Raleway',
+                fontSize: 16.0),
+          )
+
+      ),
+      Container(
+          margin: const EdgeInsets.fromLTRB(340,905,0, 20),
+          child: TextButton(
+            child: Text(
+              "See all",
+              style: TextStyle(fontSize: 11,fontWeight: FontWeight.w400,
+                fontFamily:'Poppins',),
+
+            ),
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  SignUpPage()));
+            },
+            style: TextButton.styleFrom(
+              foregroundColor: Colors.blue,
+            ),
+          ),
+
+      ),
+
+
+
+
+
+
+      Container(
+        margin: const EdgeInsets.fromLTRB(20,940,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-        margin: const EdgeInsets.fromLTRB(20,1030,20,0),
+        margin: const EdgeInsets.fromLTRB(20,1070,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-        margin: const EdgeInsets.fromLTRB(150,900,20,0),
+        margin: const EdgeInsets.fromLTRB(150,940,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-        margin: const EdgeInsets.fromLTRB(150,1030,20,0),
+        margin: const EdgeInsets.fromLTRB(150,1070,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-        margin: const EdgeInsets.fromLTRB(280,900,20,0),
+        margin: const EdgeInsets.fromLTRB(280,940,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-        margin: const EdgeInsets.fromLTRB(280,1030,20,0),
+        margin: const EdgeInsets.fromLTRB(280,1070,20,0),
         color: Colors.grey[100],
         height: 100,
         width: 110,
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(40,970, 35, 20),
+          margin: const EdgeInsets.fromLTRB(40,1010, 35, 20),
           child: Text(
             'Education',
             style: TextStyle(color: Colors.black,
@@ -438,7 +477,7 @@ class _ServicesState extends State<Services> {
 
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(170,970, 35, 20),
+          margin: const EdgeInsets.fromLTRB(170,1010, 35, 20),
           child: Text(
             'Jobs',
             style: TextStyle(color: Colors.black,
@@ -450,7 +489,7 @@ class _ServicesState extends State<Services> {
 
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(300,970, 35, 20),
+          margin: const EdgeInsets.fromLTRB(300,1010, 35, 20),
           child: Text(
             'Schemes',
             style: TextStyle(color: Colors.black,
@@ -462,7 +501,7 @@ class _ServicesState extends State<Services> {
 
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(40,1100, 35, 20),
+          margin: const EdgeInsets.fromLTRB(40,1140, 35, 20),
           child: Text(
             'Subsidies',
             style: TextStyle(color: Colors.black,
@@ -474,7 +513,7 @@ class _ServicesState extends State<Services> {
 
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(167,1100, 35, 20),
+          margin: const EdgeInsets.fromLTRB(167,1140, 35, 20),
           child: Text(
             'Scholarships',
             style: TextStyle(color: Colors.black,
@@ -486,7 +525,7 @@ class _ServicesState extends State<Services> {
 
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(298,1100, 35, 20),
+          margin: const EdgeInsets.fromLTRB(298,1140, 35, 20),
           child: Text(
             'Government',
             style: TextStyle(color: Colors.black,
@@ -499,7 +538,7 @@ class _ServicesState extends State<Services> {
       ),
 
       Container(
-          margin: const EdgeInsets.fromLTRB(95,910,0,0),
+          margin: const EdgeInsets.fromLTRB(95,950,0,0),
           height: 22,
           width: 25,
           decoration: BoxDecoration(
@@ -514,7 +553,7 @@ class _ServicesState extends State<Services> {
               fontSize: 9.0),)
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(225,910,0,0),
+          margin: const EdgeInsets.fromLTRB(225,950,0,0),
 
 
           height: 22,
@@ -531,7 +570,7 @@ class _ServicesState extends State<Services> {
               fontSize: 9.0),)
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(355,910,0,0),
+          margin: const EdgeInsets.fromLTRB(355,950,0,0),
 
 
           height: 22,
@@ -548,7 +587,7 @@ class _ServicesState extends State<Services> {
               fontSize: 9.0),)
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(95,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(95,1090,0,0),
 
 
           height: 22,
@@ -565,7 +604,7 @@ class _ServicesState extends State<Services> {
               fontSize: 9.0),)
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(225,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(225,1090,0,0),
 
 
           height: 22,
@@ -582,7 +621,7 @@ class _ServicesState extends State<Services> {
               fontSize: 9.0),)
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(355,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(355,1090,0,0),
 
 
           height: 22,
@@ -600,7 +639,7 @@ class _ServicesState extends State<Services> {
       ),
 
       Container(
-          margin: const EdgeInsets.fromLTRB(30,910,0,0),
+          margin: const EdgeInsets.fromLTRB(30,950,0,0),
 
 
           height:40,
@@ -613,7 +652,7 @@ class _ServicesState extends State<Services> {
           child: Image.asset("assets/Cap.png")
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(160,910,0,0),
+          margin: const EdgeInsets.fromLTRB(160,950,0,0),
 
 
           height:40,
@@ -626,7 +665,7 @@ class _ServicesState extends State<Services> {
           child: Image.asset("assets/Job.png")
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(290,910,0,0),
+          margin: const EdgeInsets.fromLTRB(290,950,0,0),
 
 
           height:40,
@@ -639,7 +678,7 @@ class _ServicesState extends State<Services> {
           child: Image.asset("assets/Scheme.png")
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(30,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(30,1090,0,0),
 
 
           height:40,
@@ -652,7 +691,7 @@ class _ServicesState extends State<Services> {
           child: Image.asset("assets/Subsidies.png")
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(160,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(160,1090,0,0),
 
 
           height:40,
@@ -665,7 +704,7 @@ class _ServicesState extends State<Services> {
           child: Image.asset("assets/Scholarships.png")
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(290,1040,0,0),
+          margin: const EdgeInsets.fromLTRB(290,1090,0,0),
 
 
           height:40,
@@ -679,11 +718,11 @@ class _ServicesState extends State<Services> {
       ),
 
       Container(
-          margin: const EdgeInsets.fromLTRB(20,1150,20,0),
+          margin: const EdgeInsets.fromLTRB(20,1190,20,0),
           child: Divider()
       ),
       Container(
-          margin: const EdgeInsets.fromLTRB(20,1180, 35, 20),
+          margin: const EdgeInsets.fromLTRB(20,1220, 35, 20),
           child: Text(
             'Recent Customer Review',
             style: TextStyle(color: Colors.black,
@@ -696,7 +735,7 @@ class _ServicesState extends State<Services> {
       ),
       Container(
         height: 140,
-          margin: const EdgeInsets.fromLTRB(0,1220,0,0),
+          margin: const EdgeInsets.fromLTRB(0,1260,0,0),
           child:CarouselSlider(
             items: [
               Container(
@@ -775,7 +814,7 @@ class _ServicesState extends State<Services> {
             ),
           )),
       Container(
-        margin: const EdgeInsets.fromLTRB(0, 1800, 0, 0),
+        margin: const EdgeInsets.fromLTRB(0, 1840, 0, 0),
         color: Colors.blue,
       )
 
